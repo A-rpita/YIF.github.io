@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+header::before{
+    content: "";
+    background-color:rgba(255, 166, 0, 0.824);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+  
+   
+}
+header{
+    position: sticky;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 28px;
+    padding-top: 28px;
+    
+}
+
+ .logo1{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    top:3px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+.logo2{
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top:3px;
+    clip-path: circle(50% at 50% 50%);
+    
+}
+ 
+    
+
+.navbar a{
+    font-family: 'Verdana';
+    text-decoration: none;
+    color:#fff;
+    padding-inline: 20px;
+    margin-left: 1px;
+    font-size: 24px;
+    font-weight: bold;
+    opacity: 0.99;
+
+} 
+.navbar a:hover{
+color:orange;
+background-color: whitesmoke;
+border-radius: 20px;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('frontpage.jpg') no-repeat center center/cover;
+    height: 742px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.82;
+}
+h1{
+    display: flex;
+    font-size:45px;
+   
+    font-weight: bold;
+    font-family:'Comic Sans MS';
+    color:orange;
+    opacity: 0.86;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+    opacity: 100;
+}
+.tagline{
+    display: flex;
+    font-size:40px;
+    
+    font-family:'Comic Sans MS';
+    color:orange;
+    opacity: 0.86;
+    margin-left:20%;
+    margin-top: 5px;
+    opacity: 100;
+    
+    
+    
+}
+button{
+    display: flex;
+    border:black 2px solid;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.792);
+    align-items: center;
+    justify-content: center;
+    margin-left: 630px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+   
+    
+   
+}
+button:hover{
+    background-color: rgb(184, 130, 30);
+    opacity: 0.6;
+    
+}
+
